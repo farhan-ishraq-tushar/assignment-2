@@ -31,6 +31,9 @@
 .white{
     color: rgb(255, 255, 255);
 }
+.faint-white{
+    color: rgba(255, 255, 255, 0.5);
+}
 
 *{
     box-sizing: border-box;
@@ -160,8 +163,47 @@ nav{
 }
 
 
+/* main styles */
+main{
+    width: 100%;
+    background: rgb(17, 17, 17);
+    padding-top: 30px;
+}
 
-
+/* habit section design */
+.habit{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 83%;
+    margin: 0 auto;
+    border: 2px solid white;
+    text-align: center;
+}
+.habit-title{
+    font-size: 3rem;
+}
+.habit-text{
+    margin-top: 15px;
+    color: rgba(255, 255, 255, 0.5);
+}
+.habit-img{
+    width: 100%;
+    border: 2px solid white;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+    text-align: center;
+    align-items: center;
+}
+.habit-img>div>img{
+    border-radius: 50%;
+}
+.habit-img>div>h1{
+    margin-top: 10px;
+    margin-bottom: 5px;
+    font-size: 1.125rem;
+}
 @media screen and (max-width:576px) {
     nav{
         width: 89.5%;
@@ -219,6 +261,14 @@ nav{
     }
     .video-tutorial>p{
         font-size: 0.7rem;
+    }
+
+
+    /* main body mobile responsive */
+    /* habit section mobile responsive */
+    .habit-img{
+        flex-direction: column;
+        gap: 40px;
     }
 }
 
