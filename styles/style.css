@@ -274,7 +274,7 @@ main{
         font-size: 1.7rem;
     }
     .habit-text{
-        font-size: 0.8rem;
+        font-size: 0.9rem;
     }
 }
 
@@ -327,5 +327,20 @@ main{
     }
     .video-tutorial>p{
         font-size: 0.9rem;
+    }
+
+     /* main body tablet responsive */
+    /* habit section tablet responsive */
+    .habit-img{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        /* flex-direction: column; */
+        gap: 40px;
+    }
+    .habit-title{
+        font-size: 2rem;
+    }
+    .habit-text>br{
+        display: none;
     }
 }
