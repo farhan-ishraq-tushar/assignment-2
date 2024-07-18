@@ -43,6 +43,7 @@ button:hover{
 }
 /* header styles */
 header{
+    width: 100%;
     /* background: linear-gradient(180deg, rgb(17, 17, 17),rgba(119, 119, 119, 0) 100%); */
     background: rgb(17, 17, 17);
     padding-top: 30px;
@@ -181,13 +182,15 @@ nav{
         width: 24px;
     }
 
+    /* mobile hero part */
     .hero{
         margin-top: 50px;
         flex-direction: column;
     }
     .hero-img{
-        width: 95%;
+        display: flex;
         align-items: center;
+        width: 95%;
     }
     .hero-text-heading{
         font-size: 2.25rem;
@@ -215,5 +218,67 @@ nav{
     }
     .video-tutorial>p{
         font-size: 0.7rem;
+    }
+}
+
+
+/* tablet responsive design */
+@media screen and (min-width:576px) and (max-width:992px) {
+    nav{
+        width: 89.5%;
+    }
+    .nav-heading{
+        font-size: 2.25rem;
+    }
+    .nav-links{
+        display: none;
+    }
+    .menu-btn{
+        display: inherit;
+        height: 24px;
+        width: 24px;
+    }
+
+    /* tablet hero part */
+    .hero{
+        margin-top: 50px;
+        flex-direction: column;
+        /* align-items: center; */
+    }
+    .hero-img-box{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .hero-img{
+        /* width: 95%; */
+        /* align-items: center; */
+    }
+    .hero-text-heading{
+        /* font-size: 4.25rem; */
+    }
+    .hero-text-heading>span{
+        /* font-size: 2.25rem; */
+    }
+    .free-workout{
+        top: 35px;
+        right: 130px;
+        padding: 17px 15px 16px 15px;
+    }
+    .free-workout>h1{
+        font-size: 2rem;
+    }
+    .free-workout>p{
+        font-size: 0.9rem;
+    }
+    .video-tutorial-icon{
+        top: 350px;
+        right: 400px;
+    }
+    .video-tutorial>h1{
+        font-size: 2rem;
+    }
+    .video-tutorial>p{
+        font-size: 0.9rem;
     }
 }
