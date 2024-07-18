@@ -214,6 +214,10 @@ nav{
     .free-workout>p{
         font-size: 0.7rem;
     }
+    .icon{
+        height: 25px;
+        width: 25px;
+    }
     .video-tutorial-icon{
         top: 250px;
         right: 160px;
