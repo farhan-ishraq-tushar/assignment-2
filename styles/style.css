@@ -217,6 +217,7 @@ nav{
     .video-tutorial-icon{
         top: 250px;
         right: 160px;
+        padding: 17px 15px 16px 15px;
     }
     .video-tutorial>h1{
         font-size: 1.6rem;
@@ -279,6 +280,7 @@ nav{
     .video-tutorial-icon{
         top: 350px;
         right: 400px;
+        padding: 17px 15px 16px 15px;
     }
     .video-tutorial>h1{
         font-size: 2rem;
