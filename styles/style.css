@@ -187,10 +187,15 @@ nav{
         margin-top: 50px;
         flex-direction: column;
     }
-    .hero-img{
+    .hero-img-box{
         display: flex;
+        flex-direction: column;
         align-items: center;
-        width: 95%;
+    }
+    .hero-img{
+        /* display: flex; */
+        /* align-items: center; */
+        /* width: 95%; */
     }
     .hero-text-heading{
         font-size: 2.25rem;
