@@ -113,11 +113,7 @@ nav{
     border: none;
 }
 .hero-img-box{
-    border: 2px solid white;
     position: relative;
-}
-.hero-img{
-    /* position: relative; */
 }
 .free-workout{
     position: absolute;
@@ -192,11 +188,6 @@ nav{
         flex-direction: column;
         align-items: center;
     }
-    .hero-img{
-        /* display: flex; */
-        /* align-items: center; */
-        /* width: 95%; */
-    }
     .hero-text-heading{
         font-size: 2.25rem;
     }
@@ -216,7 +207,7 @@ nav{
     }
     .icon{
         height: 25px;
-        width: 25px;
+        width: 25px; 
     }
     .video-tutorial-icon{
         top: 250px;
@@ -253,22 +244,11 @@ nav{
     .hero{
         margin-top: 50px;
         flex-direction: column;
-        /* align-items: center; */
     }
     .hero-img-box{
         display: flex;
         flex-direction: column;
         align-items: center;
-    }
-    .hero-img{
-        /* width: 95%; */
-        /* align-items: center; */
-    }
-    .hero-text-heading{
-        /* font-size: 4.25rem; */
-    }
-    .hero-text-heading>span{
-        /* font-size: 2.25rem; */
     }
     .free-workout{
         top: 35px;
