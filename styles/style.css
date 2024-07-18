@@ -332,13 +332,8 @@ main{
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        /* text-align: center; */
         padding: 30px;
         gap: 35px;
-        /* align-items: center; */
-        /* justify-content: center; */
-        /* justify-items: center; */
-        /* margin: 0 auto; */
     }
     .run-text{
         display: flex;
@@ -354,7 +349,6 @@ main{
     }
     .run-img{
         max-width: 100%;
-        /* margin: 0px; */
     }
     .run-text>h1>br{
         display: none;
