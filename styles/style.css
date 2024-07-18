@@ -270,6 +270,12 @@ main{
         flex-direction: column;
         gap: 40px;
     }
+    .habit-title{
+        font-size: 1.7rem;
+    }
+    .habit-text{
+        font-size: 0.8rem;
+    }
 }
 
 
