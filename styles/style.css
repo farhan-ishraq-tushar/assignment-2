@@ -41,6 +41,9 @@
     margin: 0px;
     padding: 0px;
 }
+.opt-label{
+    display: none;
+}
 .primary-btn{
     width: 224px;
     height: 54px;
