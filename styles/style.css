@@ -423,6 +423,8 @@ table{
 th{
     font-weight: 500;
     border: 1px solid rgba(255, 255, 255, 0.5);
+    text-align: left;
+    padding-left: 18px;
     /* border-collapse: collapse; */
 }
 .bmi-data, tr{
@@ -599,6 +601,12 @@ footer{
     margin: 0 auto;
     padding-bottom: 20px;
     font-size: 1.2rem;
+}
+hr{
+    border-color: rgb(255, 255, 255, 0.1);
+    background-color: rgb(255, 255, 255, 0.1);
+    height: 2px;
+    border: none;
 }
 /* hr{
     width: 80%;
@@ -845,6 +853,9 @@ footer{
     }
     .get-started{
         padding-top: 30px;
+    }
+    .copy-right{
+        font-size: 1rem;
     }
 
 }
