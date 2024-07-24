@@ -417,11 +417,13 @@ table{
     /* background-color: rgba(255, 255, 255, 0.1); */
     width: 310px;
     height: 216px;
+    border-collapse: collapse;
     /* margin-top: 52px; */
 }
 th{
     font-weight: 500;
     border: 1px solid rgba(255, 255, 255, 0.5);
+    /* border-collapse: collapse; */
 }
 .bmi-data, tr{
     /* background: rgb(34, 34, 34); */
@@ -430,7 +432,7 @@ td{
     color: rgba(255, 255, 255, 0.5);
     padding-left: 18px;
     border: 1px solid rgba(255, 255, 255, 0.5);
-    border-collapse: collapse;
+    /* border-collapse: collapse; */
     gap: 0px;
 }
 .bmi-calculate{
