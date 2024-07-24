@@ -530,22 +530,22 @@ input::placeholder{
     background-blend-mode: color;
 }
 .bg-img1{
-    background-image: url(../resources/images/trainer1.png);
+    background-image: url(../resources/images/trainer1.webp);
 }
 .bg-img2{
-    background-image: url(../resources/images/trainer2.png);
+    background-image: url(../resources/images/trainer2.webp);
 }
 .bg-img3{
-    background-image: url(../resources/images/trainer3.png);
+    background-image: url(../resources/images/trainer3.webp);
 }
 .bg-img4{
-    background-image: url(../resources/images/trainer4.png);
+    background-image: url(../resources/images/trainer4.webp);
 }
 .bg-img5{
-    background-image: url(../resources/images/trainer5.png);
+    background-image: url(../resources/images/trainer5.webp);
 }
 .bg-img6{
-    background-image: url(../resources/images/trainer6.png);
+    background-image: url(../resources/images/trainer6.webp);
 }
 
 .team-gallery-img>h1{
