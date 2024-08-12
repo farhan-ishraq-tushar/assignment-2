@@ -380,67 +380,6 @@ main{
     /* display: none; */
 }
 
-/* Train section styles 
-.train{
-    width: 93%;
-    margin: 0 auto;
-    margin-top: 100px;
-}
-.train>h1{
-    font-size: 3rem;
-}
-.train>p{
-    margin-top: 14px;
-    margin-bottom: 58px;
-}
-
-.train-img{
- 
- 
-}
-.train-img div img{
-    height: 214px;
-    width: 100%;
-    object-fit: cover;
-}
-.train-img-g1, .train-img-g2{
-    display: flex;
-}
-.train-img-1{
-    width: 30.5%;
-    position: relative;
-}
-.train-im-bg1{
-    background-color: rgba(6, 255, 210, 0.5);
-    height: 100%;
-    width: 100%;
-    position: absolute;
-    z-index: ;
-}
-.img-head{
-    position: absolute;
-}
-
-.train-img-1>h3{
-    left: 20px;
-    bottom: 15px;
-}
-.train-img-2{
-    width: 50.85%;
-}
-.train-img-3{
-    width: 36.6%;
-}
-.train-img-4{
-    width: 42.45%;
-}
-.train-img-5{
-    width: 38.5%;
-}
-.train-img-6{
-    width: 37%;
-}
-*/
 
 /* Train section */
 .train{
@@ -453,7 +392,7 @@ main{
 }
 .train>p{
     margin-top: 14px;
-    margin-bottom: 58px;
+    margin-bottom: 30px;
 }
 .train-img{
     display: grid;
