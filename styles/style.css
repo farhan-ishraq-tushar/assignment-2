@@ -380,6 +380,165 @@ main{
     /* display: none; */
 }
 
+/* Train section styles 
+.train{
+    width: 93%;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+.train>h1{
+    font-size: 3rem;
+}
+.train>p{
+    margin-top: 14px;
+    margin-bottom: 58px;
+}
+
+.train-img{
+ 
+ 
+}
+.train-img div img{
+    height: 214px;
+    width: 100%;
+    object-fit: cover;
+}
+.train-img-g1, .train-img-g2{
+    display: flex;
+}
+.train-img-1{
+    width: 30.5%;
+    position: relative;
+}
+.train-im-bg1{
+    background-color: rgba(6, 255, 210, 0.5);
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    z-index: ;
+}
+.img-head{
+    position: absolute;
+}
+
+.train-img-1>h3{
+    left: 20px;
+    bottom: 15px;
+}
+.train-img-2{
+    width: 50.85%;
+}
+.train-img-3{
+    width: 36.6%;
+}
+.train-img-4{
+    width: 42.45%;
+}
+.train-img-5{
+    width: 38.5%;
+}
+.train-img-6{
+    width: 37%;
+}
+*/
+
+/* Train section */
+.train{
+    width: 93%;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+.train>h1{
+    font-size: 3rem;
+}
+.train>p{
+    margin-top: 14px;
+    margin-bottom: 58px;
+}
+.train-img{
+    display: grid;
+    grid-template-columns:repeat(12,1fr);
+}
+.train-span2{
+    grid-column: span 2;
+}
+.train-span3{
+    grid-column: span 3;
+}
+.train-span4{
+    grid-column: span 4;
+}
+.train-span5{
+    grid-column: span 5;
+}
+.train-span6{
+    grid-column: span 6;
+}
+.train-img div{
+    height: 260px;
+    /* border: 2px solid red; */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-blend-mode: overlay;
+    /* width: 100%; */
+}
+.train-img-1{
+    background-image: url(../resources/images/exercise1.webp);
+    background-color: rgba(6, 255, 210, 0.6);
+    /* width: 30.5%; */
+}
+.train-img-1>h4{
+    bottom: 20px;
+    /* color: red; */
+    padding: 220px 0px 0px 20px;
+}
+.train-img-2{
+    background-image: url(../resources/images/exercise2.webp);
+    background-color: rgba(255, 0, 0, 0.3);
+    /* width: 50.85%; */
+}
+.train-img-2>h4{
+    color: white;
+    padding: 20px 0px 0px 30px;
+}
+.train-img-3{
+    background-image: url(../resources/images/exercise3.webp);
+    background-color: rgba(0, 0, 0, 0.5);
+    /* width: 36.6%; */
+}
+.train-img-3>h4{
+    color: white;
+    padding: 220px 0px 0px 20px;
+}
+.train-img-4{
+    background-image: url(../resources/images/exercise4.webp);
+    background-color: rgba(0, 0, 0, 0.5);
+    /* width: 42.45%; */
+}
+.train-img-4>h4{
+    color: white;
+    padding: 20px 0px 20px 320px;
+}
+.train-img-5{
+    background-image: url(../resources/images/exercise5.webp);
+    background-color: rgba(66, 255, 0, 0.3);
+    /* width: 38.5%; */
+}
+.train-img-5>h4{
+    color: white;
+    padding: 220px 0px 0px 20px;
+}
+.train-img-6{
+    background-image: url(../resources/images/exercise6.webp);
+    background-color: rgba(0, 71, 255, 0.3);
+    /* width: 37%; */
+}
+.train-img-6>h4{
+    color: white;
+    padding: 220px 0px 0px 20px;
+}
+
 
 /* bmi section styles */
 .bmi-text{
@@ -732,6 +891,18 @@ hr{
 
 
     /* resister section styles for mobile */
+
+    /* train styles for mobile */
+    .train>h1 {
+        font-size: 2rem;
+    }
+    .train-img{
+        grid-template-columns: repeat(1,1fr);
+    }
+    .train-img-4>h4{
+        padding: 220px 0px 0px 20px;
+    }
+
     .get-access-now{
         border-radius: 0;
         padding: 25px 0px 50px 0px;
@@ -973,6 +1144,14 @@ hr{
     .starter{
         padding: 30px 0px 30px 0px;
         /* max-width: 100%; */
+    }
+
+    /* train styles for mobile */
+    .train>h1 {
+        font-size: 2.25rem;
+    }
+    .train-img-4>h4{
+        padding: 220px 0px 0px 20px;
     }
 
     /* bmi styles for tablets */
