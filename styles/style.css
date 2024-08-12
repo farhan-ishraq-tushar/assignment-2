@@ -552,15 +552,10 @@ td{
 .form{
     padding-top: 25px;
     width: 100%;
-    /* height: 50px; */
     border-radius: 8px;
-    /* display: flex; */
     display: grid;
     grid-template-columns: repeat(2,1fr) ;
     gap: 10px;
-    /* gap: 10px; */
-    /* border: none; */
-    
 }
 .input {
     width: 100%;
@@ -571,7 +566,6 @@ td{
     font-size: 1rem;
     color: rgba(255, 255, 255, 0.5);
     background-color: rgba(255, 255, 255, 0.1);
-    /* padding-right: 10px; */
 }
 #input-full-width{
     margin-top: 10px;
